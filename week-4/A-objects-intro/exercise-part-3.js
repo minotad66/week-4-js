@@ -14,3 +14,17 @@ Make sure you use words like:
 - etc.
 
 */
+
+var carro = {
+    motor: 'V8',
+    pintura: 'roja',
+    modelo = {
+        year: 1990,
+        placa: 'yml234'
+    },
+    record: 1234,
+    tecnico_mecanica: true,
+    recorrido: function(){
+        return "el recorrido total es :"+this.record
+    }
+}
